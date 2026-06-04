@@ -1,16 +1,124 @@
-# React + Vite
+# LearnHub Multi-Page Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+LearnHub is a modern and responsive multi-page educational website developed using React, React Router, and Vite. The website provides users with a professional learning platform experience through dedicated Home, About, Courses, and Contact pages with smooth navigation and a consistent user interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Responsive Design
+- Multi-Page Navigation
+- React Router Integration
+- Home Page
+- About Page
+- Courses Page
+- Contact Page
+- Mobile Friendly Layout
+- Modern User Interface
+- Consistent Design Across Pages
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used
 
-## Expanding the ESLint configuration
+- React.js
+- React Router DOM
+- JavaScript
+- CSS3
+- Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Live Demo
+
+https://synent-task7-coursewebsite-tushar.vercel.app
+
+## GitHub Repository
+
+https://github.com/tushar-2606/synent-task7-coursewebsite-tushar
+
+## Project Structure
+
+```plaintext
+coursewebsite/
+│
+├── public/
+├── screenshots/
+│
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   └── Footer.jsx
+│   │
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── About.jsx
+│   │   ├── Courses.jsx
+│   │   └── Contact.jsx
+│   │
+│   ├── App.jsx
+│   ├── App.css
+│   └── main.jsx
+│
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## Screenshots
+
+### Home Page
+
+![Home](screenshots/home.png)
+
+### About Page
+
+![About](screenshots/about.png)
+
+### Courses Page
+
+![Courses](screenshots/course.png)
+
+### Contact Page
+
+![Contact](screenshots/contact.png)
+
+### Mobile View
+
+![Mobile View](screenshots/mobile-view.png)
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/tushar-2606/synent-task7-coursewebsite-tushar.git
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the project:
+
+```bash
+npm run dev
+```
+
+## Learning Outcomes
+
+Through this project, I improved my understanding of:
+
+- React Components
+- React Router DOM
+- Component Reusability
+- Responsive Web Design
+- Multi-Page Application Development
+- Modern UI Development
+- Frontend Project Structure
+
+## Author
+
+Tushar Prajapati
+
+## License
+
+This project was created for learning and internship purposes.
